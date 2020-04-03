@@ -9,6 +9,10 @@ int swap(int *a, int *b) {
 	return 0;
 }
 
+int min(int a, int b) {
+	return a<b ? a : b;	
+}
+
 int main(int, int)
 {
 
