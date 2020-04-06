@@ -7,13 +7,15 @@ Page({
     userInfo: {},
     logged: false,
     takeSession: false,
-    requestResult: ''
+    requestResult: '',
+    va: 0   //如果我不提交这个变更，会有什么变化
   },
 
   onLoad: function() {
         // i delete these codes
   },
 
+    // i add function here
     onshow: function(e) {
         console.log('page on show');
     },
